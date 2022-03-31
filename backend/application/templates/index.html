@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+    <body>
+        <div>
+        <form class="quest-form" method="POST" action="/add_location" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Enter the location name"><br><br>
+        <input type="text" name="distance" placeholder="Enter the distance"><br><br>
+        <input type="file" name="image-name"><br><br>
+        <input type="submit" value="Add" name="" />
+        </form>
+        </div>
+
+        <div>
+           
+        </div>
+    </body>
+</html>
